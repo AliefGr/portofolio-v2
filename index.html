@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Dev Server</title>
+  </head>
+  <body>
+   <header class="header container">
+    <nav>
+      <ul class="header-menu">
+        <li>
+          <a class="header-link" href="#home">Home</a>
+        </li>
+        <li>
+          <a class="header-link" href="#about">About</a>
+        </li>
+        <li>
+          <a class="header-link" href="#portofolio">Portofolio</a>
+        </li>
+        <li>
+          <a class="header-link" href="#contact">Contact</a>
+        </li>
+        <li class="header-line"></li>
+        <button id="theme-togle" class="header-sun">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+          </svg>
+        </button>
+        <li>
+          <a href="" class="header-resume btn">Resume</a>
+        </li>
+      </ul>
+      <button class="header-bars">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      
+      </button>
+    </nav>
+   </header>
+
+
+<!-- Mobile menu -->
+<div class="mobile-nav">
+  <nav>
+    <ul class="mobile-nav-menu">
+      <li>
+        <a href="#home" class="mobile-nav-link">Home</a>
+      </li>
+      <li>
+        <a href="#about" class="mobile-nav-link">About</a>
+      </li>
+      <li>
+        <a href="#portofolio" class="mobile-nav-link">Portofolio</a>
+      </li>
+      <li>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </li>
+      <li class="mobile-nav-line"></li>
+      <li>
+        <button id="theme-togle" class="mobile-nav-sun">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <a href="" class="mobile-nav-btn btn">Resume</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+   <main>
+    <!-- Hero -->
+    <section class="section container hero" id="home" >
+      <img class="hero-img" src="/hero1.jpg" alt="Profile picture">
+      <h2 class="hero-subtitle">Hi, I'm Alief Gr<span class="wave">👋</span></h2>
+      <h1 class="hero-title">JUNIOR <br> WEB DEVELOPER.</h1>
+      <p class="hero-deskripsi">A passionate <strong> Frontend / Fullstack-Jamstack</strong> web developer and <strong>UI/UX</strong> enthusiast specialized in building stunning pixel-perfect interactive websites/applications.</p>
+      <a class="hero-btn btn" href="">React Out</a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about section container">
+        <div class="about-content">
+          <h2 class="about-title">About</h2>
+          <p class="about-deskripsi">Hello there! I'm Alief Gr, a <strong>Frontend / Fullstack-Jamstack</strong> web developer based near Montreal. I wake up in the morning, grab a cup of timmies coffee, open up my laptop and build things that live on the web all day, everyday.</p>
+          <p class="about-deskripsi">People who know me say I'm obsessed, that's fair, I am very driven and love learning new things.</p>
+          <p class="about-deskripsi">I recently created a YouTube channel called Slaying The Dragon where I upload videos on front-end web development topics.</p>
+          <hr class="about-hr">
+          <h3  class="about-subtitle">Technologies</h3>
+          <div class="about-ul-container">   
+            <ul class="about-ul">
+              <li class="about-list">HTML</li>
+              <li class="about-list">CSS</li>
+              <li class="about-list">Java Script</li>
+            </ul>
+            <ul class="about-ul">
+              <li class="about-list">Bootstrap</li>
+              <li class="about-list">TailwindsCSS</li>
+              <li class="about-list">React Js</li>
+            </ul>
+          </div>
+        </div> 
+        <div class="about-img-container">
+          <img  class="about-img lazy loading" src="https://fakeimg.pl/3120x3125"
+           data-src="/about1.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Portofolio -->
+    <section   class="portofolio container section" id="portofolio">
+        <h3 class="portofolio-title">Portofolio</h3>
+        <p class="portofolio-deskripsi">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat ex corrupti tempora aperiam, expe Lorem ipsum dolor sit amet consectetur.</p>
+
+        <div class="portofolio-container">
+          <!-- project1 -->
+          <h3 class="project-title">Portofolio New</h3>
+          <div class="portofolio-img-wrapper portofolio-image1">
+            <img class="portofolio-img lazy loading" src="https://fakeimg.pl/1350x664" data-src="/p1.jpg" alt="">
+          </div>
+          <div class="protofolio-project portofolio-content1">
+            <h3 class="project-portofolio-subtitle">Portofolio New</h3>
+            <p class="portofolio-deskripsi-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <p class="portofolio-deskripsi-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <a href="#" class="btn portofolio-btn">Website</a>
+          </div>
+  
+          <!-- project2 -->
+          <h3 class="project-title">Portofolio New</h3>
+          <div class="portofolio-img-wrapper portofolio-image2">
+            <img class="portofolio-img lazy loading" src="https://fakeimg.pl/1350x664" data-src="/p1.jpg" alt="">
+          </div>
+  
+          <div class="protofolio-project portofolio-content2">
+            <h3 class="project-portofolio-subtitle">Portofolio New</h3>
+            <p class="portofolio-deskripsi-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <p class="portofolio-deskripsi-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <a href="#" class="btn portofolio-btn">Website</a>
+          </div>
+          
+          <!-- project3 -->
+          <h3 class="project-title">Portofolio New</h3>
+          <div class="portofolio-img-wrapper portofolio-image3">
+            <img class="portofolio-img lazy loading" src="https://fakeimg.pl/1350x664" data-src="/p1.jpg" alt="">
+          </div>
+  
+          <div class="protofolio-project portofolio-content3">
+            <h3 class="project-portofolio-subtitle">Portofolio New</h3>
+            <p class="portofolio-deskripsi-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <p class="portofolio-deskripsi-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <a href="#" class="btn portofolio-btn">Website</a>
+          </div>
+  
+          <!-- project4 -->
+          <h3 class="project-title">Portofolio New</h3>
+          <div class="portofolio-img-wrapper portofolio-image4">
+            <img class="portofolio-img lazy loading" src="https://fakeimg.pl/1350x664" data-src="/p1.jpg" alt="">
+          </div>
+  
+          <div class="protofolio-project portofolio-content4">
+            <h3 class="project-portofolio-subtitle">Portofolio New</h3>
+            <p class="portofolio-deskripsi-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <p class="portofolio-deskripsi-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <a href="#" class="btn portofolio-btn">Website</a>
+          </div>
+          <!-- project5 -->
+          <h3 class="project-title">Portofolio New</h3>
+          <div class="portofolio-img-wrapper portofolio-image5">
+            <img class="portofolio-img lazy loading" src="https://fakeimg.pl/1350x664" data-src="/p1.jpg" alt="">
+          </div>
+  
+          <div class="protofolio-project portofolio-content5">
+            <h3 class="project-portofolio-subtitle">Portofolio New</h3>
+            <p class="portofolio-deskripsi-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <p class="portofolio-deskripsi-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <a href="#" class="btn portofolio-btn">Website</a>
+          </div>
+          <!-- project6 -->
+          <h3 class="project-title">Portofolio New</h3>
+          <div class="portofolio-img-wrapper portofolio-image6">
+            <img class="portofolio-img lazy loading" src="https://fakeimg.pl/1350x664" data-src="/p1.jpg" alt="">
+          </div>
+  
+          <div class="protofolio-project portofolio-content6">
+            <h3 class="project-portofolio-subtitle">Portofolio New</h3>
+            <p class="portofolio-deskripsi-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <p class="portofolio-deskripsi-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur illo labore quia officiis voluptas.</p>
+            <a href="#" class="btn portofolio-btn">Website</a>
+          </div>
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <div id="contact" class="contact container section">
+        <h2 class="contact-title">Get In Contact</h2>
+        <p class="contact-deskripsi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magni. Dolor et quae quisquam necessitatibus? Praesentium, culpa deserunt. L~bore, possimus.</p>
+        <a href="mailto:aliefgym999@gmail.com" class="btn contact-btn" target="_blank" rel="noopener noreferrer">React Out</a>
+      </div>
+    </section> 
+
+    <!-- footer -->
+    <section class="footer container section">
+      <h3 class="footer-title">Copyright 2023 - Made With ❤️ Alief Gr</h3>
+    </section>
+
+    
+   </main>
+
+
+
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
